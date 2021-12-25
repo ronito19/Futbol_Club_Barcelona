@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/actualizar_jugador1"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_actualizar_idp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/nombre_jugador"
+        app:layout_constraintBottom_toBottomOf="@+id/edt_actualizar_jugadorj"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edt_actualizar_jugadorj"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <EditText
+        android:id="@+id/edt_actualizar_jugadorj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:autofillHints="no"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/nombre_jugador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/txt_actualizar_posicionj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/posicion_jugador"
+        app:layout_constraintBottom_toBottomOf="@+id/edt_actualizar_posicionj"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edt_actualizar_posicionj" />
+
+    <EditText
+        android:id="@+id/edt_actualizar_posicionj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/posicion"
+        app:layout_constraintEnd_toEndOf="@+id/edt_actualizar_jugadorj"
+        app:layout_constraintStart_toStartOf="@+id/edt_actualizar_jugadorj"
+        app:layout_constraintTop_toBottomOf="@+id/edt_actualizar_jugadorj"
+        android:autofillHints="no" />
+
+    <TextView
+        android:id="@+id/txt_actualizar_edadj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/edad_jugador"
+        app:layout_constraintBottom_toBottomOf="@+id/edt_actualizar_edadj"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edt_actualizar_edadj" />
+
+    <EditText
+        android:id="@+id/edt_actualizar_edadj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/edad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edt_actualizar_posicionj"
+        app:layout_constraintStart_toStartOf="@+id/edt_actualizar_posicionj"
+        app:layout_constraintTop_toBottomOf="@+id/edt_actualizar_posicionj"
+        app:layout_constraintVertical_bias="0.129"
+        android:autofillHints="NO" />
+
+    <TextView
+        android:id="@+id/txt_actualizar_sueldoj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/sueldo_jugador"
+        app:layout_constraintBottom_toBottomOf="@+id/edt_actualizar_sueldoj"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edt_actualizar_sueldoj" />
+
+    <EditText
+        android:id="@+id/edt_actualizar_sueldoj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/sueldo"
+        app:layout_constraintEnd_toEndOf="@+id/edt_actualizar_edadj"
+        app:layout_constraintStart_toStartOf="@+id/edt_actualizar_edadj"
+        app:layout_constraintTop_toBottomOf="@+id/edt_actualizar_edadj"
+        android:autofillHints="no" />
+
+    <TextView
+        android:id="@+id/txt_actualizar_numCamj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/numcamiseta"
+        app:layout_constraintBottom_toBottomOf="@+id/edt_actualizar_numCamj"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edt_actualizar_numCamj" />
+
+    <EditText
+        android:id="@+id/edt_actualizar_numCamj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/numero_camiseta"
+        app:layout_constraintEnd_toEndOf="@+id/edt_actualizar_sueldoj"
+        app:layout_constraintStart_toStartOf="@+id/edt_actualizar_sueldoj"
+        app:layout_constraintTop_toBottomOf="@+id/edt_actualizar_sueldoj"
+        android:autofillHints="no" />
+
+    <Button
+        android:id="@+id/bt_actualizarj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/actualizar_jugador"
+        android:onClick="actualizarJugador2"
+        app:layout_constraintEnd_toEndOf="@+id/edt_actualizar_numCamj"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt_actualizar_numCamj"
+        app:layout_constraintTop_toBottomOf="@+id/edt_actualizar_numCamj" />
+</androidx.constraintlayout.widget.ConstraintLayout>

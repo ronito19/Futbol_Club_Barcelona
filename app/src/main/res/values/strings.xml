@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Futbol_Club_Barcelona</string>
+    <string name="gestion_de_jugadores">GESTION DE JUGADORES</string>
+    <string name="gestionar_jugadores">GESTIONAR JUGADORES</string>
+    <string name="borrar_jugador">BORRAR JUGADOR</string>
+    <string name="mostrar_jugadores">MOSTRAR JUGADORES</string>
+    <string name="nuevo_jugador">NUEVO JUGADOR</string>
+    <string name="numerocam_jugador">NumeroCam Jugador</string>
+    <string name="a_adir_jugador">AÑADIR JUGADOR</string>
+    <string name="borrar_jugador1">Borrar Jugador</string>
+    <string name="borrar_provincia">BORRAR PROVINCIA</string>
+    <string name="txt_item_jugador">txt_item_jugador</string>
+    <string name="item_provincia">item_provincia</string>
+    <string name="mostrar_jugador">Mostrar Jugador</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="string_siguiente" />
+    <string name="siguiente1">Siguiente</string>
+    <string name="edad_jugador">Edad Jugador</string>
+    <string name="posicion_jugador">Posicion Jugador</string>
+    <string name="sueldo_jugador">Sueldo Jugador</string>
+    <string name="numcamiseta">numCamiseta</string>
+    <string name="actualizar_jugador">ACTUALIZAR JUGADOR</string>
+    <string name="posicion">Posicion</string>
+    <string name="edad">Edad</string>
+    <string name="sueldo">Sueldo</string>
+    <string name="numero_camiseta">Numero Camiseta</string>
+    <string name="nombre_jugador">Nombre Jugador</string>
+    <string name="actualizar_jugador1">Actualizar Jugador</string>
+</resources>
