@@ -24,7 +24,7 @@ public class GestionJugadorActivity extends AppCompatActivity {
 
 
     public void actualizar_jugador(View view) {
-        Intent intent = new Intent(this, MostrarJugadorActivity.class);
+        Intent intent = new Intent(this, ActualizarJugadorActivity1.class);
         startActivity(intent);
     }
 
@@ -38,7 +38,7 @@ public class GestionJugadorActivity extends AppCompatActivity {
 
 
     public void mostrar_jugadores(View view) {
-        Intent intent = new Intent(this, ActualizarJugadorActivity1.class);
+        Intent intent = new Intent(this, MostrarJugadorActivity.class);
         startActivity(intent);
     }
 }

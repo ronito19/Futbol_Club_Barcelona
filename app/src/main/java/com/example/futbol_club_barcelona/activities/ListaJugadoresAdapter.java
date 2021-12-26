@@ -84,9 +84,9 @@ public class ListaJugadoresAdapter extends RecyclerView.Adapter<JugadorViewHolde
             Jugador jugador_actual = listaJugadores.get(position);
             holder.txt_rv_jugador_nombrej.setText("Nombre: " + jugador_actual.getNombre());
             holder.txt_rv_posicion.setText(String.valueOf("Posicion: " + jugador_actual.getPosicion()));
-            holder.txt_rv_edad.setText(Integer.parseInt("Edad: " + jugador_actual.getEdad()));
-            holder.txt_rv_sueldo.setText(String.valueOf("Sueldo: " + jugador_actual.getSueldo()));
-            holder.txt_rv_numCam.setText(Integer.parseInt("numCam: " + jugador_actual.getNumeroCam()));
+            holder.txt_rv_edad.setText("Edad: " + String.valueOf(jugador_actual.getEdad()));
+            holder.txt_rv_sueldo.setText("Sueldo: " + String.valueOf(jugador_actual.getSueldo()));
+            holder.txt_rv_numCam.setText("numCam: " + String.valueOf(jugador_actual.getNumeroCam()));
 
         }
 

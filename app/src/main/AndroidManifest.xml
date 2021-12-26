@@ -13,7 +13,13 @@
             android:name=".activities.ActualizarJugadorActivity1"
             android:exported="false" />
         <activity
+            android:name=".activities.ActualizarJugadorActivity2"
+            android:exported="false" />
+        <activity
             android:name=".activities.BorrarJugadorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MostrarDetallesJugadorActivity"
             android:exported="false" />
         <activity
             android:name=".activities.MostrarJugadorActivity"
